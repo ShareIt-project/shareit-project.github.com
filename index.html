@@ -1,31 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
     <title>ShareIt! by ShareIt-project</title>
-  </head>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+  </head>
   <body>
 
-    <header>
-      <div class="container">
+      <header>
         <h1>ShareIt!</h1>
-        <h2>Helping you sharing your files from the web browser since 2012</h2>
+        <p>Helping you sharing your files from the web browser since 2012</p>
+      </header>
 
-        <section id="downloads">
-          <a href="https://github.com/ShareIt-project" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+      <div id="banner">
+        <span id="logo"></span>
 
-    <div class="container">
-      <section id="main_content">
+        <a href="https://github.com/ShareIt-project" class="button fork"><strong>View On GitHub</strong></a>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
         <h3>P2P filesharing on the web browser.</h3>
 
 <p>ShareIt! is a P2P filesharing application that runs directly on your browser without servers nor requiring external plugins thanks to WebRTC DataChannels technology. This page aims to collect the efforts on the ShareIt! application development but also on the WebP2P specification and some other related projects.
@@ -51,8 +57,11 @@ An introduction can be found on the <a href="https://github.com/piranna/ShareIt/
 
 <p>ShareIt! project is mainly maintained by Jesús Leganés Combarro (<a href="https://github.com/piranna" class="user-mention">@piranna</a>). You can obtain more info on the <a href="webp2p@librelist.com">WebP2P mail list</a>.</p>
       </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
     </div>
-
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
